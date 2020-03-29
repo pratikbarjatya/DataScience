@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Stacked Bar Chart</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.2.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="fab33781-f099-4c2d-8774-a90ef2b8d7d6" data-root-id="1406"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1681">
+          {"1a6fae9e-4240-45c4-ad38-c00517dcb40d":{"roots":{"references":[{"attributes":{"below":[{"id":"1417","type":"LinearAxis"}],"center":[{"id":"1421","type":"Grid"},{"id":"1426","type":"Grid"},{"id":"1463","type":"Legend"}],"left":[{"id":"1422","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_width":800,"renderers":[{"id":"1455","type":"GlyphRenderer"},{"id":"1468","type":"GlyphRenderer"},{"id":"1482","type":"GlyphRenderer"},{"id":"1496","type":"GlyphRenderer"},{"id":"1510","type":"GlyphRenderer"},{"id":"1524","type":"GlyphRenderer"}],"title":{"id":"1407","type":"Title"},"toolbar":{"id":"1433","type":"Toolbar"},"toolbar_location":"above","x_range":{"id":"1409","type":"DataRange1d"},"x_scale":{"id":"1413","type":"LinearScale"},"y_range":{"id":"1411","type":"DataRange1d"},"y_scale":{"id":"1415","type":"LinearScale"}},"id":"1406","subtype":"Figure","type":"Plot"},{"attributes":{"bottom":{"expr":{"id":"1446","type":"Stack"}},"fill_color":{"value":"#e7298a"},"line_color":{"value":"#e7298a"},"top":{"expr":{"id":"1447","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1494","type":"VBar"},{"attributes":{"fields":["ARSON","BURGLARY"]},"id":"1444","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1442","type":"Stack"}},"fill_color":{"value":"#d95f02"},"line_color":{"value":"#d95f02"},"top":{"expr":{"id":"1443","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1466","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1446","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1447","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1495","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"1440","type":"Stack"}},"fill_color":{"value":"#1b9e77"},"line_color":{"value":"#1b9e77"},"top":{"expr":{"id":"1441","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1453","type":"VBar"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1494","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"STOLEN PROPERTY","nonselection_glyph":{"id":"1495","type":"VBar"},"selection_glyph":null,"view":{"id":"1497","type":"CDSView"}},"id":"1496","type":"GlyphRenderer"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT","STOLEN PROPERTY","VANDALISM","VEHICLE THEFT"]},"id":"1451","type":"Stack"},{"attributes":{"label":{"value":"LARCENY/THEFT"},"renderers":[{"id":"1482","type":"GlyphRenderer"}]},"id":"1492","type":"LegendItem"},{"attributes":{"label":{"value":"VEHICLE THEFT"},"renderers":[{"id":"1524","type":"GlyphRenderer"}]},"id":"1534","type":"LegendItem"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1497","type":"CDSView"},{"attributes":{"bottom":{"expr":{"id":"1440","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1441","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1454","type":"VBar"},{"attributes":{"dimension":1,"ticker":{"id":"1423","type":"BasicTicker"}},"id":"1426","type":"Grid"},{"attributes":{"text":"Category wise count of crimes by year"},"id":"1407","type":"Title"},{"attributes":{"label":{"value":"STOLEN PROPERTY"},"renderers":[{"id":"1496","type":"GlyphRenderer"}]},"id":"1506","type":"LegendItem"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1453","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"ARSON","nonselection_glyph":{"id":"1454","type":"VBar"},"selection_glyph":null,"view":{"id":"1456","type":"CDSView"}},"id":"1455","type":"GlyphRenderer"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1456","type":"CDSView"},{"attributes":{},"id":"1460","type":"BasicTickFormatter"},{"attributes":{"callback":null,"start":0},"id":"1411","type":"DataRange1d"},{"attributes":{},"id":"1427","type":"SaveTool"},{"attributes":{"bottom":{"expr":{"id":"1442","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1443","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1467","type":"VBar"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT","STOLEN PROPERTY","VANDALISM"]},"id":"1449","type":"Stack"},{"attributes":{"fields":["ARSON"]},"id":"1441","type":"Stack"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT"]},"id":"1445","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"1448","type":"Stack"}},"fill_color":{"value":"#66a61e"},"line_color":{"value":"#66a61e"},"top":{"expr":{"id":"1449","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1508","type":"VBar"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1466","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"BURGLARY","nonselection_glyph":{"id":"1467","type":"VBar"},"selection_glyph":null,"view":{"id":"1469","type":"CDSView"}},"id":"1468","type":"GlyphRenderer"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT","STOLEN PROPERTY"]},"id":"1448","type":"Stack"},{"attributes":{"overlay":{"id":"1462","type":"BoxAnnotation"}},"id":"1429","type":"BoxZoomTool"},{"attributes":{"bottom":{"expr":{"id":"1448","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1449","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1509","type":"VBar"},{"attributes":{"fields":["ARSON"]},"id":"1442","type":"Stack"},{"attributes":{},"id":"1415","type":"LinearScale"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1469","type":"CDSView"},{"attributes":{"fields":[]},"id":"1440","type":"Stack"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1508","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"VANDALISM","nonselection_glyph":{"id":"1509","type":"VBar"},"selection_glyph":null,"view":{"id":"1511","type":"CDSView"}},"id":"1510","type":"GlyphRenderer"},{"attributes":{},"id":"1458","type":"BasicTickFormatter"},{"attributes":{},"id":"1475","type":"UnionRenderers"},{"attributes":{"fields":["ARSON","BURGLARY"]},"id":"1443","type":"Stack"},{"attributes":{"label":{"value":"ARSON"},"renderers":[{"id":"1455","type":"GlyphRenderer"}]},"id":"1464","type":"LegendItem"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1511","type":"CDSView"},{"attributes":{},"id":"1428","type":"PanTool"},{"attributes":{},"id":"1476","type":"Selection"},{"attributes":{"callback":null},"id":"1409","type":"DataRange1d"},{"attributes":{"label":{"value":"VANDALISM"},"renderers":[{"id":"1510","type":"GlyphRenderer"}]},"id":"1520","type":"LegendItem"},{"attributes":{},"id":"1431","type":"WheelZoomTool"},{"attributes":{"label":{"value":"BURGLARY"},"renderers":[{"id":"1468","type":"GlyphRenderer"}]},"id":"1478","type":"LegendItem"},{"attributes":{},"id":"1430","type":"ResetTool"},{"attributes":{"axis_label":"Year","formatter":{"id":"1460","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1418","type":"BasicTicker"}},"id":"1417","type":"LinearAxis"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1427","type":"SaveTool"},{"id":"1428","type":"PanTool"},{"id":"1429","type":"BoxZoomTool"},{"id":"1430","type":"ResetTool"},{"id":"1431","type":"WheelZoomTool"},{"id":"1432","type":"TapTool"}]},"id":"1433","type":"Toolbar"},{"attributes":{"bottom":{"expr":{"id":"1450","type":"Stack"}},"fill_color":{"value":"#e6ab02"},"line_color":{"value":"#e6ab02"},"top":{"expr":{"id":"1451","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1522","type":"VBar"},{"attributes":{"grid_line_color":null,"ticker":{"id":"1418","type":"BasicTicker"}},"id":"1421","type":"Grid"},{"attributes":{"bottom":{"expr":{"id":"1444","type":"Stack"}},"fill_color":{"value":"#7570b3"},"line_color":{"value":"#7570b3"},"top":{"expr":{"id":"1445","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1480","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":{"value":0.5},"fill_color":{"value":"lightgrey"},"left_units":"screen","level":"overlay","line_alpha":{"value":1.0},"line_color":{"value":"black"},"line_dash":[4,4],"line_width":{"value":2},"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1462","type":"BoxAnnotation"},{"attributes":{"bottom":{"expr":{"id":"1450","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1451","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1523","type":"VBar"},{"attributes":{"callback":null},"id":"1432","type":"TapTool"},{"attributes":{},"id":"1418","type":"BasicTicker"},{"attributes":{"bottom":{"expr":{"id":"1444","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"1445","type":"Stack"}},"width":{"value":0.9},"x":{"field":"Year"}},"id":"1481","type":"VBar"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1522","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"VEHICLE THEFT","nonselection_glyph":{"id":"1523","type":"VBar"},"selection_glyph":null,"view":{"id":"1525","type":"CDSView"}},"id":"1524","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"1405","type":"ColumnDataSource"},"glyph":{"id":"1480","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"LARCENY/THEFT","nonselection_glyph":{"id":"1481","type":"VBar"},"selection_glyph":null,"view":{"id":"1483","type":"CDSView"}},"id":"1482","type":"GlyphRenderer"},{"attributes":{"axis_label":"Total Crimes","formatter":{"id":"1458","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"1423","type":"BasicTicker"}},"id":"1422","type":"LinearAxis"},{"attributes":{"items":[{"id":"1464","type":"LegendItem"},{"id":"1478","type":"LegendItem"},{"id":"1492","type":"LegendItem"},{"id":"1506","type":"LegendItem"},{"id":"1520","type":"LegendItem"},{"id":"1534","type":"LegendItem"}],"location":"top_left","orientation":"horizontal"},"id":"1463","type":"Legend"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1525","type":"CDSView"},{"attributes":{},"id":"1423","type":"BasicTicker"},{"attributes":{"source":{"id":"1405","type":"ColumnDataSource"}},"id":"1483","type":"CDSView"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT","STOLEN PROPERTY","VANDALISM"]},"id":"1450","type":"Stack"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT"]},"id":"1446","type":"Stack"},{"attributes":{},"id":"1413","type":"LinearScale"},{"attributes":{"callback":null,"data":{"ARSON":[231,240,246,248,222,209,203,237,248,253,311],"BURGLARY":[7071,7004,5454,5679,5379,4966,4987,6243,6195,6066,5931],"LARCENY/THEFT":[25319,27352,25770,25807,25585,24446,25905,30976,36412,38003,42068],"STOLEN PROPERTY":[540,575,527,518,660,680,785,932,1224,1084,959],"VANDALISM":[7013,7688,7566,7342,7604,7934,7243,7808,6921,7165,7675],"VEHICLE THEFT":[18194,7291,6460,6053,5183,4346,4762,6183,6241,7108,7943],"Year":[2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015],"index":[0,1,2,3,4,5,6,7,8,9,10]},"selected":{"id":"1476","type":"Selection"},"selection_policy":{"id":"1475","type":"UnionRenderers"}},"id":"1405","type":"ColumnDataSource"},{"attributes":{"fields":["ARSON","BURGLARY","LARCENY/THEFT","STOLEN PROPERTY"]},"id":"1447","type":"Stack"}],"root_ids":["1406"]},"title":"Bokeh Application","version":"1.2.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1681').textContent;
+                  var render_items = [{"docid":"1a6fae9e-4240-45c4-ad38-c00517dcb40d","roots":{"1406":"fab33781-f099-4c2d-8774-a90ef2b8d7d6"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

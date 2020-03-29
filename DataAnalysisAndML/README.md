@@ -54,7 +54,7 @@ ___
 ___
 
 <a id=section4></a>
-### [HR Prediction for Promotion](./AnalyticsVidhya_HR_Prediction)
+### [HR Prediction for Promotion](./HR_Prediction)
 ![image.jpg](images/Promotion_img.png)<br><br>
 
 - An HR in company plays various roles for growth of Organization and individual both.
@@ -62,4 +62,4 @@ ___
 - There are many aspects which contribute to promotion like Age, Academics Background, Competencies etc.
 - This prediction used few of the features like this and helps HRs to get a fair knowledge whether the individual with given aspects deserves promotion or not.
 
-- [Link for the Jupyter notebook](./AnalyticsVidhya_HR_Prediction/HR_Prediction.ipynb)
+- [Link for the Jupyter notebook](./HR_Prediction/HR_Prediction.ipynb)
